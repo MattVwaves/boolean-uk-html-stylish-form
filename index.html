@@ -4,10 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
+    <title>Stylish Form</title>
   </head>
   <body>
+    <div class="parent">
+        <div class="child">
+            <form>
+                <h1>Say Hello!</h1>
+                <label for="name">Your Name:</label><br>
+                <input required type="text" id="name" name="name" placeholder="Enter your name"><br>
+                <label for="email">Enter your email:</label>
+                <input required type="email" id="email" name="email" placeholder="Enter Your Email Address">
+                <label for="city">Needed Services:</label>
+                <select required name="city">
+                    <option value="0">Choose Services</option>
+                    <option value="1">wash your car</option>
+                    <option value="2">paint your face</option>
+                </select>
+                <label for="city">Budget:</label>
+                <select required name="city">
+                    <option value="0">Select Budget</option>
+                    <option value="1">BIG</option>
+                    <option value="2">Low</option>
+                </select>
+                <label for="subject">Message:</label>
 
+                <textarea name="subject" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit" />
+                   
+             </form>
+        </div>
+        </div>
   </body>
 </html>
